@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <div className="max-w-lg mx-auto px-5 py-14">
       <h1 className="font-serif text-3xl mb-2">Contact us</h1>
-      <p className="muted mb-7">Questions, feedback, or something not working? Let us know.</p>
+      <p className="muted mb-7">Questions, feedback, or something not working? You may Let us know.</p>
       {!sent ? (
         <form
           onSubmit={(e) => {
