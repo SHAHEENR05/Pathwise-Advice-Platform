@@ -19,7 +19,7 @@ export default function AboutPage() {
         <li>Respect for your own judgment</li>
       </ul>
       <div className="card p-6 text-center">
-        <p className="mb-3">Have something on your mind?</p>
+        <p className="mb-3">Have something on your mind? Feel free to call</p>
         <Link href="/ask" className="inline-block bg-primary text-primary-ink rounded-lg px-5 py-2.5 text-sm font-medium">
           Get Advice
         </Link>
