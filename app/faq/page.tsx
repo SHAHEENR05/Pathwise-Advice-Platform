@@ -19,7 +19,7 @@ export default function FAQPage() {
 
   return (
     <div className="max-w-2xl mx-auto px-5 py-14">
-      <h1 className="font-serif text-3xl mb-6">Frequently asked questions</h1>
+      <h1 className="font-serif text-3xl mb-6">We have Frequently asked questions</h1>
       <Input placeholder="Search FAQs" value={query} onChange={(e) => setQuery(e.target.value)} className="mb-6" />
       <div className="flex flex-col gap-2">
         {filtered.map(([q, a]) => (
